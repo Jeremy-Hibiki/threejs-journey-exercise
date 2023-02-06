@@ -1,0 +1,44 @@
+{
+  "name": "threejs-journey-course-exercises",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "exercise/*"
+  ],
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:prettier && npm run tsc",
+    "lint-staged": "lint-staged",
+    "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./exercise",
+    "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./exercise",
+    "lint:prettier": "prettier -c --write \"**/**.{js,jsx,tsx,ts,less,md,json}\" --end-of-line auto",
+    "prepare": "husky install",
+    "tsc": "tsc --noEmit"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "lil-gui": "^0.17.0",
+    "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "@types/three": "^0.149.0",
+    "@umijs/fabric": "^2.14.1",
+    "eslint": "^7.32.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
+    "prettier-plugin-sort-imports": "^1.7.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.1"
+  },
+  "packageManager": "yarn@1.22.19"
+}
