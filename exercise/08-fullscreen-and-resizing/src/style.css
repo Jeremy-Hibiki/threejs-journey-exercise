@@ -1,0 +1,10 @@
+:root {
+  overflow: hidden;
+}
+
+.webgl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  outline: none;
+}
