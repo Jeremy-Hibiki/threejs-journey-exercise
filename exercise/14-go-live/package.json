@@ -1,0 +1,19 @@
+{
+  "name": "14-go-live",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "deploy": "vercel --prod",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "lil-gui": "^0.17.0",
+    "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "vercel": "^28.15.1",
+    "vite": "^4.0.4"
+  }
+}
