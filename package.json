@@ -13,13 +13,13 @@
     "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./exercise",
     "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./exercise",
-    "lint:prettier": "prettier -c --write \"**/**.{js,jsx,tsx,ts,less,md,json}\" --end-of-line auto",
+    "lint:prettier": "prettier -c --write \"**/**.{js,ts,jsx,tsx,less,md,json,css}\" --end-of-line auto",
     "prepare": "husky install",
     "tsc": "tsc --noEmit"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
-    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+    "**/*.{js,ts,jsx,tsx,less,md,json,css}": [
       "prettier --write"
     ]
   },
