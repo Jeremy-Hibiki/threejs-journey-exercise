@@ -124,8 +124,8 @@ for (let i = 0; i < 40; i++) {
   const radius = Math.random() * 5 + 4;
   const grave = new THREE.Mesh(graveGeometry, graveMaterial);
   grave.position.set(Math.cos(angle) * radius, 0.3, Math.sin(angle) * radius);
-  grave.rotateY(((Math.random() - 0.5) * Math.PI) / 4);
-  grave.rotateZ(((Math.random() - 0.5) * Math.PI) / 4);
+  grave.rotation.y = ((Math.random() - 0.5) * Math.PI) / 4;
+  grave.rotation.z = ((Math.random() - 0.5) * Math.PI) / 4;
   graves.add(grave);
 }
 
