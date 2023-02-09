@@ -13,13 +13,13 @@
     "lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./exercise",
     "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty ./exercise",
-    "lint:prettier": "prettier -c --write \"**/**.{js,ts,jsx,tsx,less,md,json,css}\" --end-of-line auto",
+    "lint:prettier": "prettier -c --write \"**/**.{js,ts,jsx,tsx,html,md,json,css,pcss}\" --end-of-line auto",
     "prepare": "husky install",
     "tsc": "tsc --noEmit"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
-    "**/*.{js,ts,jsx,tsx,less,md,json,css}": [
+    "**/*.{js,ts,jsx,tsx,html,md,json,css,pcss}": [
       "prettier --write"
     ]
   },
@@ -32,9 +32,11 @@
     "@types/node": "^18.11.19",
     "@types/three": "^0.149.0",
     "@umijs/fabric": "^2.14.1",
+    "autoprefixer": "^10.4.13",
     "eslint": "^7.32.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
+    "postcss-nesting": "^11.1.0",
     "prettier": "^2.8.3",
     "prettier-plugin-sort-imports": "^1.7.1",
     "typescript": "^4.9.5",
