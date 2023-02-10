@@ -23,14 +23,8 @@
       "prettier --write"
     ]
   },
-  "dependencies": {
-    "gsap": "^3.11.4",
-    "lil-gui": "^0.17.0",
-    "three": "^0.149.0"
-  },
   "devDependencies": {
     "@types/node": "^18.11.19",
-    "@types/three": "^0.149.0",
     "@umijs/fabric": "^2.14.1",
     "autoprefixer": "^10.4.13",
     "eslint": "^7.32.0",
@@ -39,8 +33,7 @@
     "postcss-nesting": "^11.1.0",
     "prettier": "^2.8.3",
     "prettier-plugin-organize-imports": "^3.2.2",
-    "typescript": "^4.9.5",
-    "vite": "^4.1.1"
+    "typescript": "^4.9.5"
   },
   "packageManager": "yarn@1.22.19"
 }
