@@ -1,7 +1,7 @@
-import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import * as THREE from 'three';
 import { GUI } from 'lil-gui';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper';
 
 /**
  * Base

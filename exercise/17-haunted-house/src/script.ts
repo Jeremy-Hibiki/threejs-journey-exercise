@@ -1,7 +1,7 @@
+import { GUI } from 'lil-gui';
+import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import type { BufferAttribute } from 'three/src/core/BufferAttribute';
-import * as THREE from 'three';
-import { GUI } from 'lil-gui';
 
 /**
  * Base
