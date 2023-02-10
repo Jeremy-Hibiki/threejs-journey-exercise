@@ -1,5 +1,5 @@
-import * as THREE from 'three';
 import gsap from 'gsap';
+import * as THREE from 'three';
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl') as HTMLElement;
