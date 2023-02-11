@@ -5,7 +5,8 @@
   "license": "MIT",
   "type": "module",
   "workspaces": [
-    "exercise/*"
+    "exercise/*",
+    "final/*"
   ],
   "scripts": {
     "lint": "npm run lint:js && npm run lint:prettier && npm run tsc",
