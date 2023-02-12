@@ -3,6 +3,4 @@
 build/
 dist/
 
-*.config.*
-
 final/
