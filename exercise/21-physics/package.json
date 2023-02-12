@@ -1,0 +1,20 @@
+{
+  "name": "exercise-21-physics",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "lil-gui": "^0.17.0",
+    "lodash": "^4.17.21",
+    "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "vite": "^4.0.4"
+  }
+}
