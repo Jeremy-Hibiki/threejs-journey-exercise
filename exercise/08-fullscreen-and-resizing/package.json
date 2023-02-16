@@ -1,5 +1,5 @@
 {
-  "name": "exercise-08-fullscreen-and-resizing",
+  "name": "@threejs-journey-exercise/08-fullscreen-and-resizing",
   "version": "0.1.0",
   "private": true,
   "type": "module",

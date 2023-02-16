@@ -1,5 +1,5 @@
 {
-  "name": "exercise-10-debug-ui",
+  "name": "@threejs-journey-exercise/10-debug-ui",
   "version": "0.1.0",
   "private": true,
   "type": "module",

@@ -1,5 +1,5 @@
 {
-  "name": "exercise-04-local-server",
+  "name": "@threejs-journey-exercise/04-local-server",
   "version": "0.1.0",
   "private": true,
   "type": "module",

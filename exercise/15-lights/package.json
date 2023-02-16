@@ -1,5 +1,5 @@
 {
-  "name": "exercise-15-lights",
+  "name": "@threejs-journey-exercise/15-lights",
   "version": "0.1.0",
   "private": true,
   "type": "module",
