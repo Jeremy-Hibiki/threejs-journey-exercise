@@ -1,5 +1,5 @@
 {
-  "name": "exercise-23-raycaster-and-mouse-events",
+  "name": "@threejs-journey-exercise/23-raycaster-and-mouse-events",
   "private": true,
   "version": "0.1.0",
   "type": "module",

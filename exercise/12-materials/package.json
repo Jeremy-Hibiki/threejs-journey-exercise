@@ -1,5 +1,5 @@
 {
-  "name": "exercise-12-materials",
+  "name": "@threejs-journey-exercise/12-materials",
   "version": "0.1.0",
   "private": true,
   "type": "module",

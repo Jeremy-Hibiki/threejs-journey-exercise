@@ -1,5 +1,5 @@
 {
-  "name": "exercise-21-physics",
+  "name": "@threejs-journey-exercise/21-physics",
   "version": "0.1.0",
   "private": true,
   "type": "module",

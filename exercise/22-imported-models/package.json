@@ -1,5 +1,5 @@
 {
-  "name": "exercise-22-imported-models",
+  "name": "@threejs-journey-exercise/22-imported-models",
   "version": "0.1.0",
   "private": true,
   "type": "module",
