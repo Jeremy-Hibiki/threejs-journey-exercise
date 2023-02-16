@@ -1,5 +1,5 @@
-import postcssNesting from 'postcss-nesting';
 import autoprefixer from 'autoprefixer';
+import postcssNesting from 'postcss-nesting';
 import { defineConfig } from 'vite';
 
 export default defineConfig({

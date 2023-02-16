@@ -12,7 +12,7 @@ Great appreciation to Bruno Simon for the wonderful course.
 
 - Uses `yarn workspace` to reduce redundant dependencies like `three` and `gsap`.
 
-- Quality tools like [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) are configured. Check [@umijs/fabric](https://github.com/umijs/fabric/) for rules.
+- Quality tools like [ESLint](https://eslint.org/), [Stylelint](https://stylelint.io/) and [Prettier](https://prettier.io/) are configured. Check [@umijs/lint](https://umijs.org/docs/guides/lint/) for rules.
 
 ## Folder Structure
 
@@ -42,6 +42,7 @@ Great appreciation to Bruno Simon for the wonderful course.
 ├── package.json & yarn.lock            # Dependencies for the whole project.
 ├── .eslintrc.cjs & .eslintignore       # ESLint configuration.
 ├── .prettierrc.cjs & .prettierignore   # Prettier configuration.
+├── .stylelint.cjs                      # Stylelint configuration.
 ├── tsconfig.json                       # TypeScript configuration for the exercise.
 ├── r3f.d.ts                            # To make the intellisense for r3f's tags in IDE like Idea or WebStorm available.
 └── README.md
