@@ -1,6 +1,7 @@
 import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite';
 
-export default {
+export default defineConfig({
   plugins: [react()],
   root: 'src/',
   publicDir: '../public/',
@@ -13,4 +14,4 @@ export default {
     emptyOutDir: true,
     sourcemap: true,
   },
-};
+});

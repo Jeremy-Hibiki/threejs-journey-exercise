@@ -18,7 +18,7 @@ export default class Floor {
   private geometry!: CircleGeometry;
   private texture!: { normal: Texture; color: Texture };
   private material!: MeshStandardMaterial;
-  private mesh!: Mesh<typeof this.geometry, typeof this.material>;
+  private mesh!: Mesh<Floor['geometry'], Floor['material']>;
 
   constructor() {
     this.experience = new Experience();

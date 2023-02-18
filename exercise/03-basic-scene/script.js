@@ -1,5 +1,7 @@
-/** @type {typeof import('../../../../packages/three.js/build/three')} */
-var THREE;
+// @ts-check
+/**
+ * @typedef {import('three')}
+ */
 
 const scene = new THREE.Scene();
 
@@ -17,7 +19,7 @@ const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height);
 camera.position.z = 3;
 scene.add(camera);
 
-const canvas = document.querySelector('.webgl');
+const canvas = /** @type {HTMLCanvasElement} */ (document.querySelector('.webgl'));
 const renderer = new THREE.WebGLRenderer({
   canvas,
 });

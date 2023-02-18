@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import { GUI } from 'lil-gui';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 /**
  * debug gui

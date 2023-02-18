@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from 'vite';
+
+export default defineConfig({
   root: 'src/',
   publicDir: '../static/',
   base: './',
@@ -10,4 +12,4 @@ export default {
     emptyOutDir: true,
     sourcemap: true,
   },
-};
+});
