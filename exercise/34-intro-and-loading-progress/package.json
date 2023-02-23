@@ -1,0 +1,20 @@
+{
+  "name": "@threejs-journey-exercise/34-intro-and-loading-progress",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss-nesting": "^11.2.1",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "lil-gui": "^0.17.0",
+    "three": "^0.149.0"
+  }
+}
