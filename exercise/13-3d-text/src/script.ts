@@ -1,8 +1,8 @@
 import { GUI } from 'lil-gui';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
-import { FontLoader } from 'three/examples/jsm/loaders/FontLoader';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry';
+import { FontLoader } from 'three/addons/loaders/FontLoader';
 
 /**
  * Base

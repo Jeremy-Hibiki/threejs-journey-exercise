@@ -1,6 +1,6 @@
 import GUI from 'lil-gui';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
 import testFragmentShader from './shaders/test/fragment.frag.glsl';
 import testVertexShader from './shaders/test/vertex.vert.glsl';
 

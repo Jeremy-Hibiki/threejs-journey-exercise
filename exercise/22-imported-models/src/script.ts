@@ -1,8 +1,8 @@
 import GUI from 'lil-gui';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
+import { DRACOLoader } from 'three/addons/loaders/DRACOLoader';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader';
 
 /**
  * Base
