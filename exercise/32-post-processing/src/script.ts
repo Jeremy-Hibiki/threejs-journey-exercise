@@ -1,16 +1,16 @@
 import GUI from 'lil-gui';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
-import { DotScreenPass } from 'three/examples/jsm/postprocessing/DotScreenPass';
-import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer';
-import { GlitchPass } from 'three/examples/jsm/postprocessing/GlitchPass';
-import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass';
-import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass';
-import { SMAAPass } from 'three/examples/jsm/postprocessing/SMAAPass';
-import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPass';
-import { GammaCorrectionShader } from 'three/examples/jsm/shaders/GammaCorrectionShader';
-import { RGBShiftShader } from 'three/examples/jsm/shaders/RGBShiftShader';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader';
+import { DotScreenPass } from 'three/addons/postprocessing/DotScreenPass';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer';
+import { GlitchPass } from 'three/addons/postprocessing/GlitchPass';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass';
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass';
+import { SMAAPass } from 'three/addons/postprocessing/SMAAPass';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass';
+import { GammaCorrectionShader } from 'three/addons/shaders/GammaCorrectionShader';
+import { RGBShiftShader } from 'three/addons/shaders/RGBShiftShader';
 
 /**
  * Base

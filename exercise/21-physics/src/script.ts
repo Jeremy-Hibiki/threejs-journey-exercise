@@ -2,7 +2,7 @@ import * as CANNON from 'cannon-es';
 import GUI from 'lil-gui';
 import throttle from 'lodash/throttle';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
 
 /**
  * Base

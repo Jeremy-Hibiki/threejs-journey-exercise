@@ -13,7 +13,13 @@
     "useDefineForClassFields": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": ["vite/client", "vite-plugin-glsl/ext"]
+    "types": ["vite/client", "vite-plugin-glsl/ext"],
+    "paths": {
+      "three/addons/*": [
+        "node_modules/three/examples/jsm/*",
+        "node_modules/@types/three/examples/jsm/*"
+      ]
+    }
   },
   "exclude": ["node_modules", "**/node_modules/*", "dist"]
 }

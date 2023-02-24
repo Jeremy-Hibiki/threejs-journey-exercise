@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 import { CubeTexture, CubeTextureLoader, Texture, TextureLoader } from 'three';
-import { GLTF, GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GLTF, GLTFLoader } from 'three/addons/loaders/GLTFLoader';
 
 enum LoaderTypeNameEnum {
   gltf = 'gltf',

@@ -1,6 +1,6 @@
 import { GUI } from 'lil-gui';
 import { AnimationAction, AnimationMixer, Group, Mesh, Scene } from 'three';
-import { GLTF } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GLTF } from 'three/addons/loaders/GLTFLoader';
 import Experience from '../index';
 import Debug from '../utils/Debug';
 import Resources from '../utils/Resources';

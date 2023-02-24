@@ -1,7 +1,7 @@
 import Stats from 'stats.js';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-// import { mergeBufferGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
+// import { mergeBufferGeometries } from 'three/addons/utils/BufferGeometryUtils';
 
 /**
  * Measurement

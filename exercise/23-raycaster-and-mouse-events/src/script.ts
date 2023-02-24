@@ -1,13 +1,13 @@
-import * as dat from 'lil-gui';
+import GUI from 'lil-gui';
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { OrbitControls } from 'three/addons/controls/OrbitControls';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader';
 
 /**
  * Base
  */
 // Debug
-const gui = new dat.GUI();
+const gui = new GUI();
 
 // Canvas
 const canvas = document.querySelector('canvas.webgl') as HTMLCanvasElement;
