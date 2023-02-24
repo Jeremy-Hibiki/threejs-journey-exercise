@@ -3624,6 +3624,11 @@ postcss-selector-parser@^6.0.10, postcss-selector-parser@^6.0.11:
     cssesc "^3.0.0"
     util-deprecate "^1.0.2"
 
+postcss-sorting@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.npmmirror.com/postcss-sorting/-/postcss-sorting-8.0.1.tgz#d03852914979ac0a1ef3ca6e517bf4b53c045f35"
+  integrity sha512-go9Zoxx7KQH+uLrJ9xa5wRErFeXu01ydA6O8m7koPXkmAN7Ts//eRcIqjo0stBR4+Nir2gMYDOWAOx7O5EPUZA==
+
 postcss-syntax@0.36.2:
   version "0.36.2"
   resolved "https://registry.npmmirror.com/postcss-syntax/-/postcss-syntax-0.36.2.tgz#f08578c7d95834574e5593a82dfbfa8afae3b51c"
@@ -4260,6 +4265,13 @@ style-search@^0.1.0:
   resolved "https://registry.npmmirror.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==
 
+stylelint-config-recess-order@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmmirror.com/stylelint-config-recess-order/-/stylelint-config-recess-order-4.0.0.tgz#819b4b8f9bf83d23a0bc918a9bf834f42f87b12a"
+  integrity sha512-sOb+OofMryBR91CbzgV2FavpONqiIeAE7cfrgyUHqePblWBKsYzoUuWThI5EjPRA7KKeovm6ykr7twWYLeafPQ==
+  dependencies:
+    stylelint-order "6.x"
+
 stylelint-config-recommended@^7.0.0:
   version "7.0.0"
   resolved "https://registry.npmmirror.com/stylelint-config-recommended/-/stylelint-config-recommended-7.0.0.tgz#7497372ae83ab7a6fffc18d7d7b424c6480ae15e"
@@ -4271,6 +4283,14 @@ stylelint-config-standard@25.0.0:
   integrity sha512-21HnP3VSpaT1wFjFvv9VjvOGDtAviv47uTp3uFmzcN+3Lt+RYRv6oAplLaV51Kf792JSxJ6svCJh/G18E9VnCA==
   dependencies:
     stylelint-config-recommended "^7.0.0"
+
+stylelint-order@6.x:
+  version "6.0.2"
+  resolved "https://registry.npmmirror.com/stylelint-order/-/stylelint-order-6.0.2.tgz#df54d3ed9aa5a45d4563ada0375e670140a798c2"
+  integrity sha512-yuac0BE6toHd27wUPvYVVQicAJthKFIv1HPQFH3Q0dExiO3Z6Uam7geoO0tUd5Z9ddsATYK++1qWNDX4RxMH5Q==
+  dependencies:
+    postcss "^8.4.21"
+    postcss-sorting "^8.0.1"
 
 stylelint@^15.1.0:
   version "15.1.0"
