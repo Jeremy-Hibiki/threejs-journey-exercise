@@ -6,7 +6,6 @@ draco/
 final/
 
 **/*.svg
-package.json
 .dockerignore
 .DS_Store
 .eslintignore
