@@ -1,0 +1,17 @@
+{
+  "name": "@threejs-journey-exercise/31-modified-materials",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "lil-gui": "^0.17.0",
+    "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
+  }
+}
