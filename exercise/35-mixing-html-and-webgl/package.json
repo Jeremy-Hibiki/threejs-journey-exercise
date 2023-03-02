@@ -1,18 +1,18 @@
 {
   "name": "@threejs-journey-exercise/35-mixing-html-and-webgl",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "vite": "^4.0.4"
+    "build": "vite build",
+    "dev": "vite"
   },
   "dependencies": {
     "gsap": "^3.11.4",
     "lil-gui": "^0.17.0",
     "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.4"
   }
 }

@@ -1,19 +1,19 @@
 {
   "name": "@threejs-journey-exercise/26-code-structuring-for-bigger-projects",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "@types/events": "^3.0.0",
-    "vite": "^4.0.4"
+    "build": "vite build",
+    "dev": "vite"
   },
   "dependencies": {
     "events": "^3.3.0",
     "lil-gui": "^0.17.0",
     "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "vite": "^4.0.4"
   }
 }
