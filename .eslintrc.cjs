@@ -10,6 +10,7 @@ module.exports = {
       },
     ],
     'react/no-unknown-property': 0,
+    'react/self-closing-comp': 1,
     '@typescript-eslint/no-unused-vars': [
       'warn',
       { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
