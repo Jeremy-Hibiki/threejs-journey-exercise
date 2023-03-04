@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "screenfull": "^6.0.2",
-    "three": "^0.149.0"
+    "three": "^0.150.1"
   },
   "devDependencies": {
     "vite": "^4.0.4"

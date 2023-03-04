@@ -10,7 +10,7 @@
   "dependencies": {
     "events": "^3.3.0",
     "lil-gui": "^0.17.0",
-    "three": "^0.149.0"
+    "three": "^0.150.1"
   },
   "devDependencies": {
     "@types/events": "^3.0.0",
