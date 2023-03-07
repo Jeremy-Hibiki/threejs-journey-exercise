@@ -1,0 +1,26 @@
+html,
+body,
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: ivory;
+
+  & div,
+  & canvas {
+    touch-action: none;
+  }
+
+  & .html-screen {
+    & iframe {
+      width: 1024px;
+      height: 670px;
+      background-color: #000;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+    }
+  }
+}
