@@ -1,5 +1,6 @@
 module.exports = {
   extends: [require.resolve('@umijs/lint/dist/config/eslint')],
+  plugins: ['@emotion'],
   rules: {
     'react/jsx-sort-props': [
       1,
@@ -20,5 +21,7 @@ module.exports = {
       'error',
       { functions: false, classes: true, variables: true, typedefs: true },
     ],
+    '@emotion/no-vanilla': 2,
+    '@emotion/pkg-renaming': 2,
   },
 };

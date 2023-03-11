@@ -15,18 +15,21 @@
     "lint:fix": "eslint --fix --cache --ext .js,.jsx,.ts,.tsx",
     "lint:js": "eslint --cache --ext .js,.jsx,.ts,.tsx",
     "lint:prettier": "prettier -c --write \"**/**.{js,ts,jsx,tsx,html,md,json,css,pcss}\" --end-of-line auto",
-    "lint:style": "stylelint --fix \"exercise/**/*.{css,pcss}\"",
+    "lint:style": "stylelint --fix \"exercise/**/*.{css,pcss,jsx,tsx}\"",
     "prepare": "husky install",
     "tsc": "tsc --noEmit"
   },
   "lint-staged": {
-    "**/*.{css,pcss}": "stylelint",
+    "**/*.{css,pcss,jsx,tsx}": "stylelint",
     "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
     "**/*.{js,ts,jsx,tsx,html,md,json,css,pcss}": [
       "prettier --write"
     ]
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.6",
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@types/babel__core": "^7.20.0",
     "@types/node": "^16.18.14",
     "@umijs/lint": "^4.0.52",
     "eslint": "^8.34.0",

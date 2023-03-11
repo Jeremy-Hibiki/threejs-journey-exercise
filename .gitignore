@@ -11,6 +11,7 @@ node_modules/
 
 build/
 dist/
+stats.html
 
 final/
 final-projects/
